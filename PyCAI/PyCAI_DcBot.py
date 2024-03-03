@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix='$', intents=intents)
 
 client = PyCAI('TOKEN') #Char_token
 
-char = 'CHAR' #ganti CHAR dengan code karakter c.ai yang di inginkan
+char = 'CHAR' #ganti CHAR dengan code karakter c.ai
 
 chat = client.chat.get_chat(char)
 
